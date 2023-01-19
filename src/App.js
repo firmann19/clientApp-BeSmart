@@ -1,5 +1,19 @@
-import './styles/style.css';
+import { Route, Routes } from "react-router-dom";
+import LoginPage from "./pages/LoginPage";
+import RegisterPage from "./pages/RegisterPage";
+import "./styles/style.css";
 
-export default function App() {
-  return <h1 className="text-2xl font-bold underline">Hello world!</h1>;
+function App() {
+  return (
+    <>
+    <main>
+      <Routes>
+        <Route path="/register" element={<RegisterPage />} />
+        <Route path="/login" element={<LoginPage />} />     
+      </Routes>
+    </main>
+    </>
+  );
 }
+
+export default App;
