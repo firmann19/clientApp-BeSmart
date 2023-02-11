@@ -7,10 +7,10 @@ import Ui from "../assets/UIUX.png";
 const Course = () => {
     return (
         <div className="px-6 items-center mt-8 p-8">
-            <h1 className="text-3xl font-bold text-center">Course</h1>
+            <h1 className="text-4xl font-bold text-center">Course</h1>
             <p className="font-semibold text-center my-6">
                 Berbagai materi pembelajaran yang dapat menciptakan<br /> pola pikir krisits
-                untuk sebuah inovvasi
+                untuk sebuah inovasi
             </p>
             <div className="flex gap-18 mx-20 justify-between">
                 <CourseItem
