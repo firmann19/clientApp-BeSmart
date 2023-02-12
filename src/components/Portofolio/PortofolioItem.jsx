@@ -4,10 +4,10 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { BsArrowLeft, BsArrowRight, } from 'react-icons/bs';
 
-import Porto1 from '../assets/porto1.png'
-import Porto2 from '../assets/porto2.png'
-import Porto3 from '../assets/porto3.png'
-import Porto4 from '../assets/porto3.png'
+import Porto1 from '../../assets/porto1.png'
+import Porto2 from '../../assets/porto2.png'
+import Porto3 from '../../assets/porto3.png'
+import Porto4 from '../../assets/porto3.png'
 
 const images = [Porto1, Porto2, Porto3, Porto4];
 

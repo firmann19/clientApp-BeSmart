@@ -1,8 +1,8 @@
 import React from 'react'
 import ServiceItem from './ServiceItem'
-import Webdev from '../assets/webdev.png'
-import Appdev from '../assets/appdev.png'
-import Uidev from '../assets/uidev.png'
+import Webdev from '../../assets/webdev.png'
+import Appdev from '../../assets/appdev.png'
+import Uidev from '../../assets/uidev.png'
 
 const Service = () => {
     return (

@@ -8,7 +8,7 @@ const Footer = () => {
                 <div>
                     <div className='flex items-center gap-4'>
                         <img className='w-16' src={Logo} alt="" />
-                        <h1 className='font-bold text-3xl'>Be Smart</h1>
+                        <h1 className='font-bold text-3xl'>BeSmart</h1>
                     </div>
                     <p className='my-5'>
                         BeSmart membantu anda untuk <br />berkarir dalam dunia teknologi <br /> untuk masa depan lebih baik
