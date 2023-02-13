@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Logo from '../assets/BeSmart-modified.png'
 
 const Footer = () => {
@@ -17,17 +18,17 @@ const Footer = () => {
                 <div>
                     <h1 className='font-bold text-2xl'>TENTANG KAMI</h1>
                     <ul className='mt-6'>
-                        <li>Visi & Misi Perusahaan</li>
-                        <li>Komunitas</li>
-                        <li>Strukstur Perusahaan</li>
+                        <Link to="visi-misi"><li>Visi & Misi Perusahaan</li></Link>
+                        <Link to="komunitas"><li>Komunitas</li></Link>
+                        <Link to="struktur-perusahaan"><li>Strukstur Perusahaan</li></Link>
                     </ul>
                 </div>
                 <div>
                     <div>
                         <h1 className='font-bold text-2xl'>BANTUAN</h1>
                         <ul className='mt-6'>
-                            <li>FAQ</li>
-                            <li>Syarat dan Ketentuan</li>
+                            <Link to="faq"><li>FAQ</li></Link>
+                            <Link to="syarat-kententuan"><li>Syarat dan Ketentuan</li></Link>
                         </ul>
                     </div>
                 </div>
@@ -35,16 +36,16 @@ const Footer = () => {
                     <div>
                         <h1 className='font-bold text-2xl'>SOSIAL MEDIA</h1>
                         <ul className='mt-6'>
-                            <li>LinkedIn</li>
-                            <li>Instagram</li>
-                            <li>Blog</li>
-                            <li>Youtube</li>
+                            <Link to="linkedin"><li>LinkedIn</li></Link>
+                            <Link to="instagram"><li>Instagram</li></Link>
+                            <Link to="blog"><li>Blog</li></Link>
+                            <Link to="youtube"><li>Youtube</li></Link>
                         </ul>
                     </div>
                 </div>
             </div>
             <div>
-                <h1 className='py-2 px-6 font-semibold'>Copyright ©2022 BeSmart Comunity</h1>
+                <h1 className='py-2 px-6 font-semibold text-center'>Copyright ©2022 BeSmart Comunity</h1>
             </div>
         </footer>
     )
