@@ -10,24 +10,30 @@ function RegisterInput({ register }) {
   return (
     <form className="register-input">
       <input
+        className="border border-black border-4"
         type="text"
         value={name}
         onChange={onNameChange}
-        placeholder="Name"
+        placeholder="Full Name"
       />
       <input
+        className="border border-black border-4"
         type="email"
         value={email}
         onChange={onEmailChange}
         placeholder="Email"
       />
       <input
+        className="border border-black border-4"
         type="password"
         value={password}
         onChange={onPasswordChange}
         placeholder="Password"
       />
-      <button type="button" onClick={() => register({ name, email, password })}>
+      <button
+        className="w-full h-11 rounded-xl text-lg font-medium bg-secondary-color text-white gap-2"
+        onClick={() => register({ name, email, password })}
+      >
         Register
       </button>
     </form>

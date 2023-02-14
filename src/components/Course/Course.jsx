@@ -10,7 +10,7 @@ const Course = () => {
       <h1 className="text-4xl font-bold text-center">Course</h1>
       <p className="font-semibold text-center my-6">
         Berbagai materi pembelajaran yang dapat menciptakan
-        <br /> pola pikir krisits untuk sebuah inovasi
+        <br /> pola pikir kritis untuk sebuah inovasi
       </p>
       <div className="flex gap-18 mx-20 justify-between">
         <CourseItem
