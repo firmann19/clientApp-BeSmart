@@ -4,7 +4,7 @@ import Hero from "../assets/header.png";
 
 const Header = () => {
     return (
-        <div className="w-full flex gap-10 px-6 items-center bg-image bg-white p-9">
+        <div className="w-full flex gap-10 px-7 items-center bg-image bg-white p-10">
             <div className="w-1/2">
                 <h1 className="font-semibold text-5xl text-text-hero">
                     Ciptakan Suksesmu

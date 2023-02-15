@@ -5,7 +5,7 @@ import Button from './Button'
 
 const Navbar = () => {
     return (
-        <nav className='flex justify-between py-3 px-6 items-center'>
+        <nav className='flex justify-between py-2 px-6 items-center bg-bg-color'>
             <div>
                 <Link to="/"><img src={Logo} alt="beSmart" className='w-1/6' /></Link>
             </div>
