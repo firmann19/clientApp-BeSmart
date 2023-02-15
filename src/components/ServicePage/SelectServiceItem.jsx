@@ -1,6 +1,6 @@
 import React from "react";
 
-function HeaderSelectService(props) {
+function SelectServiceItem(props) {
   return (
     <>
     <div className='items-center w-auto h-30 my-7 rounded-xl px-6 border-4 border-secondary-color'>
@@ -12,4 +12,4 @@ function HeaderSelectService(props) {
   );
 }
 
-export default HeaderSelectService;
+export default SelectServiceItem;

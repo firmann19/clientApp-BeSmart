@@ -1,29 +1,24 @@
 import React from 'react'
-import BasicCourseItem from './BasicCourseItem'
 import Git from '../../assets/git.png'
+import ListServiceItem from './ListServiceItem'
 
-const BasicCourse = () => {
+const ListService = () => {
     return (
-        <div className='bg-white my-10 p-7'>
-            <div>
-                <h1 className='text-center font-bold text-3xl text-black'>Basic Course</h1>
-            </div>
-            <div className='container flex justify-between my-7 px-7'>
-                <BasicCourseItem
+            <div className='container bg-white flex justify-between my-7 px-7'>
+                <ListServiceItem
                     img={Git}
                     title='Git & GitHub Dasar'
                     desk='Pernahkah kamu membayangkan bagaimana para programmer berkolaborasi untuk mengerjakan sebuah aplikasi? Ya, tidak lain adalah dengan...' />
-                <BasicCourseItem
+                <ListServiceItem
                     img={Git}
                     title='Git & GitHub Dasar'
                     desk='Pernahkah kamu membayangkan bagaimana para programmer berkolaborasi untuk mengerjakan sebuah aplikasi? Ya, tidak lain adalah dengan...' />
-                <BasicCourseItem
+                <ListServiceItem
                     img={Git}
                     title='Git & GitHub Dasar'
                     desk='Pernahkah kamu membayangkan bagaimana para programmer berkolaborasi untuk mengerjakan sebuah aplikasi? Ya, tidak lain adalah dengan...' />
             </div>
-        </div>
     )
 }
 
-export default BasicCourse
+export default ListService
