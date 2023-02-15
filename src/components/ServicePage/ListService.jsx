@@ -1,21 +1,23 @@
 import React from 'react'
-import Git from '../../assets/git.png'
+import Ecomerce from '../../assets/ecomerce.png'
+import Forum from '../../assets/forumweb.png'
+import Course from '../../assets/course.png'
 import ListServiceItem from './ListServiceItem'
 
 const ListService = () => {
     return (
-            <div className='container bg-white flex justify-between my-7 px-7'>
+            <div className='container flex justify-between mb-20 px-7'>
                 <ListServiceItem
-                    img={Git}
-                    title='Git & GitHub Dasar'
+                    img={Ecomerce}
+                    title='E-Comerce'
                     desk='Pernahkah kamu membayangkan bagaimana para programmer berkolaborasi untuk mengerjakan sebuah aplikasi? Ya, tidak lain adalah dengan...' />
                 <ListServiceItem
-                    img={Git}
-                    title='Git & GitHub Dasar'
+                    img={Course}
+                    title='Online Course'
                     desk='Pernahkah kamu membayangkan bagaimana para programmer berkolaborasi untuk mengerjakan sebuah aplikasi? Ya, tidak lain adalah dengan...' />
                 <ListServiceItem
-                    img={Git}
-                    title='Git & GitHub Dasar'
+                    img={Forum}
+                    title='Forum Social'
                     desk='Pernahkah kamu membayangkan bagaimana para programmer berkolaborasi untuk mengerjakan sebuah aplikasi? Ya, tidak lain adalah dengan...' />
             </div>
     )

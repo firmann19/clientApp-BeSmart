@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import HeaderService from "../components/ServicePage/HeaderService";
-import ListServiceItem from "../components/ServicePage/ListServiceItem";
+import ListService from "../components/ServicePage/ListService";
 import SelectService from "../components/ServicePage/SelectService";
 
 
@@ -12,7 +12,7 @@ function Service() {
       <Navbar />
        <HeaderService />
        <SelectService />
-       <ListServiceItem />
+       <ListService />
       <Footer />
     </div>
   );

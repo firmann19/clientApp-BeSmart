@@ -3,11 +3,11 @@ import Learn from '../../assets/learn.png'
 
 const ListServiceItem = (props) => {
     return (
-        <div className='shadow-2xl w-96 rounded-xl bg-white my-10'>
-            <img src={props.imG} alt="" />
+        <div className='shadow-2xl w-96 rounded-xl'>
+            <img className='rounded-t-xl' src={props.img} alt="" />
             <div className='p-4'>
                 <h1 className='font-bold text-xl'>{props.title}</h1>
-                <p className='my-1'>{props.desK}</p>
+                <p className='my-1'>{props.desk}</p>
                 <div>
                     <div className='flex justify-between items-center'>
                         <div className='flex items-center bg-bg-color p-1 rounded-md'>
@@ -25,4 +25,4 @@ const ListServiceItem = (props) => {
     )
 }
 
-export default  ListServiceItem
+export default ListServiceItem
