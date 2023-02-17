@@ -12,7 +12,7 @@ const Portofolio = () => {
                 <ul className='flex justify-around cursor-pointer '>
                     <li >All project</li>
                     <li>Web Development</li>
-                    <li>Mobile Develompent</li>
+                    <li>Mobile Development</li>
                     <li>UI/UX Designer</li>
                 </ul>
             </div>

@@ -15,7 +15,7 @@ const Course = () => {
       <div className="flex gap-18 mx-20 justify-between">
         <CourseItem
           img={Fe}
-          title="Front End Developer"
+          title="Front End Web"
           desk="Belajar membangun tampilan aplikasi website yang interaktif"
         />
         <div className="bg-primary-color items-center p-8 text-center w-80 h-96 rounded-xl filter-sd">

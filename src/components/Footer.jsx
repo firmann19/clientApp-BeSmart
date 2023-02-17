@@ -20,7 +20,7 @@ const Footer = () => {
                     <ul className='mt-6'>
                         <Link to="visi-misi"><li>Visi & Misi Perusahaan</li></Link>
                         <Link to="komunitas"><li>Komunitas</li></Link>
-                        <Link to="struktur-perusahaan"><li>Strukstur Perusahaan</li></Link>
+                        <Link to="struktur-perusahaan"><li>Struktur Perusahaan</li></Link>
                     </ul>
                 </div>
                 <div>

@@ -12,10 +12,10 @@ const Navbar = () => {
             <div className='flex gap-6 items-center'>
                 <ul className='flex gap-6 font-medium text-l cursor-pointer'>
                     <Link to="/" className='hover:text-secondary-color'>Home</Link>
-                    <Link to="course" className='hover:text-secondary-color'>Course</Link>
+                    <Link to="/course" className='hover:text-secondary-color'>Course</Link>
                     <Link to="/services" className='hover:text-secondary-color'>Services</Link>
                     <Link to="/portofolio" className='hover:text-secondary-color'>Portofolio</Link>
-                    <Link to="contact-us" className='hover:text-secondary-color'>Contact Us</Link>
+                    <Link to="/contactus" className='hover:text-secondary-color'>Contact Us</Link>
                 </ul>
                 <Link to="register"><Button name='Register' /></Link>
                 <Link to="login" ><button className='w-28 h-11 rounded-xl text-l font-medium bg-white'>Login</button></Link>

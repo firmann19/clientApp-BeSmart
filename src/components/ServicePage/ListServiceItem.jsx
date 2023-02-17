@@ -1,7 +1,12 @@
 import React from 'react'
-import Learn from '../../assets/learn.png'
+import ReactStars from 'react-stars'
 
 const ListServiceItem = (props) => {
+
+    const ratingChanged = (newRating) => {
+        console.log(newRating)
+      }
+
     return (
         <div className='shadow-2xl w-96 rounded-xl'>
             <img className='rounded-t-xl' src={props.img} alt="" />
@@ -10,9 +15,8 @@ const ListServiceItem = (props) => {
                 <p className='my-1'>{props.desk}</p>
                 <div>
                     <div className='flex justify-between items-center'>
-                        <div className='flex items-center bg-bg-color p-1 rounded-md'>
-                            <img src={Learn} alt="" />
-                            <h3 className='font-semibold'>6 Pembelajaran</h3>
+                        <div className='flex items-center p-1 rounded-md'>
+                            <ReactStars count={5} onChange={ratingChanged} size={24} color2={'#ffd700'}  />
                         </div>
                         <h1 className='font-bold text-red-600'>GRATIS</h1>
                     </div>
